@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+    <!-- Bootstrap cdn -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!-- Fontawsome cdn -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+
+    <!-- Custom css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>To do List</title>
+</head>
+
+<body>
+    <!-- =============To-Do-List-Section-Starts============= -->
+    <div class="container-fluid">
+        <div class="container">
+            <div class="mx-auto mt-5 list">
+                <div class="to-do-heading text-center mb-4">
+                    <h2>To Do List</h2>
+                </div>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Enter Your Name"
+                        aria-label="Recipient's username" id="username" aria-describedby="button-addon2">
+                    <button class="btn-1 text-white btn-info" type="button" id="addUser">Add User</button>
+                </div>
+
+                <div class="display">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">S.No</th>
+                                <th scope="col">First</th>
+                                <th scope="col">Last</th>
+                            </tr>
+                        </thead>
+                        <tbody id="records">
+                            <!-- <tr>
+                                <th scope="row">1</th>
+                                <td>King of Javascript</td>
+                                <td><i class="btn text-white fa-regular fa-pen-to-square btn-info mx-2"></i> <i class="btn text-white btn-danger fa-solid fa-trash"></i></td>
+                            </tr> -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- =============To-Do-List-Section-Ends============= -->
+
+    <!-- Jquery cdn -->
+    <script src="assets/js/jquery.min.js"></script>
+
+    <!-- Bootstrap js -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom js -->
+   <script src="assets/js/script.js"></script>
+</body>
+
+</html>
